@@ -6,7 +6,7 @@ import {
 } from '@google/generative-ai';
 import { GoogleAIFileManager } from '@google/generative-ai/server';
 
-const apiKey = 'AIzaSyCk51vidd4IPj4Ms_lH_3JTuKhQsbTvlAg';
+const apiKey = 'AIzaSyBwsgFyfBX1zBWpKifjfuAIh7hZSauK4SE';
 // console.log(apiKey);
 const genAI = new GoogleGenerativeAI(apiKey);
 const fileManager = new GoogleAIFileManager(apiKey);
